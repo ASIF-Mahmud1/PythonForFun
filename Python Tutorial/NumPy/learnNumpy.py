@@ -13,5 +13,5 @@ A= np.array([ [1,2],[3,4],[5,6] ])
 B= np.array([ [1,2],[3,4] ])
 print(B)
 C= A.dot(B)
-D= A@B
-print("D is \n",D)
+# D= A@B
+print("C is \n",C)
