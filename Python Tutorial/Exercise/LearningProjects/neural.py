@@ -1,3 +1,4 @@
+# https://medium.com/fintechexplained/neural-networks-activation-function-to-back-propagation-understanding-neural-networks-bdd036c3f29f
 # Neural network implementation
 from sklearn.neural_network import MLPClassifier
 # Function for loading the breast cancer data set
@@ -32,3 +33,4 @@ accuracyForRandomForest= randomforest.score(attributes_test, labels_test)
 print("Neural Network Accauracy ",str(accuracyForNeural * 100) + "% accuracy") # Print the accuracy
 
 print("Random Forest Accauracy ",str(accuracyForRandomForest * 100) + "% accuracy") # Print the accuracy
+# print(train_test_split(attributes, labels, test_size=0.33))
